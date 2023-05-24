@@ -23,7 +23,7 @@ Card buildCreditCard({
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const Text(
-                'MasterCard',
+                'Banamex',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,

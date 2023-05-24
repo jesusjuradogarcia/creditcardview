@@ -28,7 +28,7 @@ class CardAlertDialog extends StatelessWidget {
               Navigator.of(context).pop();
             },
             child: const CircleAvatar(
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.green,
               child: Icon(Icons.close, color: Colors.white),
             ),
           ),
@@ -39,18 +39,18 @@ class CardAlertDialog extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                'Card Added Successfully',
+                'Su tarjeta fue aceptada',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  color: Colors.green,
+                  color: Color(0xffaf4c4c),
                 ),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                'You can now use your card to make payments',
+                'Ya puedes usar tu tarjeta para hacer pagos, Gracias',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
               ),
             ),
